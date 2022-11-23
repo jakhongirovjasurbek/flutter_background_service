@@ -51,10 +51,10 @@ public class BackgroundService extends Service implements MethodChannel.MethodCa
     private Config config;
     private DartExecutor.DartEntrypoint dartEntrypoint;
     private boolean isManuallyStopped = false;
-    private String notificationTitle;
-    private String notificationContent;
-    private String notificationChannelId;
-    private int notificationId;
+    // private String notificationTitle;
+    // private String notificationContent;
+    // private String notificationChannelId;
+    // private int notificationId;
     private Handler mainHandler;
     private final IBackgroundServiceBinder.Stub binder = new IBackgroundServiceBinder.Stub() {
 
