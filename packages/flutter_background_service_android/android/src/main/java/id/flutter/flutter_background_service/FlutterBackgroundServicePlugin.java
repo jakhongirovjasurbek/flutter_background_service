@@ -134,10 +134,10 @@ public class FlutterBackgroundServicePlugin implements FlutterPlugin, MethodCall
                 config.setBackgroundHandle(backgroundHandle);
                 config.setIsForeground(isForeground);
                 config.setAutoStartOnBoot(autoStartOnBoot);
-                config.setInitialNotificationTitle(initialNotificationTitle);
-                config.setInitialNotificationContent(initialNotificationContent);
-                config.setNotificationChannelId(notificationChannelId);
-                config.setForegroundNotificationId(foregroundNotificationId);
+                // config.setInitialNotificationTitle(initialNotificationTitle);
+                // config.setInitialNotificationContent(initialNotificationContent);
+                // config.setNotificationChannelId(notificationChannelId);
+                // config.setForegroundNotificationId(foregroundNotificationId);
 
                 if (autoStart) {
                     start();

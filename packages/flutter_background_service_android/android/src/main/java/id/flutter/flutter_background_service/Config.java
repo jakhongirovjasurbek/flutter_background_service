@@ -46,35 +46,35 @@ public class Config {
         pref.edit().putLong("background_handle", value).apply();
     }
 
-    public String getInitialNotificationTitle() {
-        return pref.getString("initial_notification_title", "Background Service");
-    }
+    // public String getInitialNotificationTitle() {
+    //     return pref.getString("initial_notification_title", "Background Service");
+    // }
 
-    public void setInitialNotificationTitle(String value) {
-        pref.edit().putString("initial_notification_title", value).apply();
-    }
+    // public void setInitialNotificationTitle(String value) {
+    //     pref.edit().putString("initial_notification_title", value).apply();
+    // }
 
-    public String getInitialNotificationContent() {
-        return pref.getString("initial_notification_content", "Preparing");
-    }
+    // public String getInitialNotificationContent() {
+    //     return pref.getString("initial_notification_content", "Preparing");
+    // }
 
-    public void setInitialNotificationContent(String value) {
-        pref.edit().putString("initial_notification_content", value).apply();
-    }
+    // public void setInitialNotificationContent(String value) {
+    //     pref.edit().putString("initial_notification_content", value).apply();
+    // }
 
-    public String getNotificationChannelId() {
-        return pref.getString("notification_channel_id", null);
-    }
+    // public String getNotificationChannelId() {
+    //     return pref.getString("notification_channel_id", null);
+    // }
 
-    public void setNotificationChannelId(String value) {
-        pref.edit().putString("notification_channel_id", value).apply();
-    }
+    // public void setNotificationChannelId(String value) {
+    //     pref.edit().putString("notification_channel_id", value).apply();
+    // }
 
-    public int getForegroundNotificationId() {
-        return pref.getInt("foreground_notification_id", 112233);
-    }
+    // public int getForegroundNotificationId() {
+    //     return pref.getInt("foreground_notification_id", 112233);
+    // }
 
-    public void setForegroundNotificationId(int value) {
-        pref.edit().putInt("foreground_notification_id", value).apply();
-    }
+    // public void setForegroundNotificationId(int value) {
+    //     pref.edit().putInt("foreground_notification_id", value).apply();
+    // }
 }
