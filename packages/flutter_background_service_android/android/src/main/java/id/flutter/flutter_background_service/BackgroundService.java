@@ -222,16 +222,16 @@ public class BackgroundService extends Service implements MethodChannel.MethodCa
         String method = call.method;
 
         try {
-            if (method.equalsIgnoreCase("setNotificationInfo")) {
-                JSONObject arg = (JSONObject) call.arguments;
-                if (arg.has("title")) {
-                    notificationTitle = arg.getString("title");
-                    notificationContent = arg.getString("content");
-                    // updateNotificationInfo();
-                    result.success(true);
-                }
-                return;
-            }
+            // if (method.equalsIgnoreCase("setNotificationInfo")) {
+            //     JSONObject arg = (JSONObject) call.arguments;
+            //     if (arg.has("title")) {
+            //         notificationTitle = arg.getString("title");
+            //         notificationContent = arg.getString("content");
+            //         // updateNotificationInfo();
+            //         result.success(true);
+            //     }
+            //     return;
+            // }
 
             if (method.equalsIgnoreCase("setAutoStartOnBootMode")) {
                 JSONObject arg = (JSONObject) call.arguments;
